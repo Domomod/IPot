@@ -1,0 +1,41 @@
+/* custom styles */
+
+html, body {
+  /* Height and width fallback for older browsers. */
+  height: 100%;
+  width: 100%;
+
+  /* Set the height to match that of the viewport. */
+  height: 100vh;
+
+  /* Set the width to match that of the viewport. */
+  width: 100vw;
+
+  /* Remove any browser-default margins. */
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  padding-top: 50px;
+  max-width: 90vw;
+}
+
+.item-view {
+  text-align: center;
+  display: inline-block;
+}
+
+input {
+  text-align: center;
+  border: 5px solid;
+  padding: 13px 12px;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin-left: 20px;
+  text-align: left;
+}

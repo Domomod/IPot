@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <title>Flask React</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/slider.css') }}">
+  </head>
+  <body>
+    <div class="container">
+      <h1>IHydro</h1>
+      <br>
+      <div id="slider1"></div>
+    </div>
+      
+    <!-- scripts -->
+    <script src="{{ url_for('static', filename='bower_components/react/react.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/react/react-dom.min.js') }}"></script>
+    <script type = "module" src="{{ url_for('static', filename='scripts/js/app.js') }}"></script>
+    <script type = "module" src="{{ url_for('static', filename='scripts/js/slider.js') }}"></script>
+    <script type = "module" src="{{ url_for('static', filename='scripts/js/dynamic_slider.js') }}"></script>
+    <script type = "module" src="{{ url_for('static', filename='scripts/js/sensor_view.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous"></script>
+    <!--script type="text/javascript" charset="utf-8">
+        
+        var socket = io.connect("your-ip-address");
+        socket.on('connect', function() {
+            console.log("Socket io client connected");
+            socket.emit('my event', {data: 'I\'m connected!'});
+        });
+    </script-->
+  </body>
+</html>

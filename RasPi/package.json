@@ -1,0 +1,32 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "slider.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/register": "^7.15.3",
+    "@iconify/react": "^3.0.1",
+    "bower": "^1.7.9",
+    "del": "^2.2.0",
+    "gulp": "^4.0.2",
+    "gulp-browser": "^2.1.4",
+    "gulp-size": "^2.1.0",
+    "reactify": "^1.1.1",
+    "webpack-dev-middleware": "^1.10.0",
+    "webpack-stream": "^3.2.0"
+  },
+  "dependencies": {
+    "@material-ui/icons": "^4.11.2",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "gulp-babel": "^8.0.0",
+    "redis": "^3.1.2",
+    "socket.io-client": "^4.0.1"
+  }
+}
